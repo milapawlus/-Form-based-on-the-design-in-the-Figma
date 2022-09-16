@@ -1,28 +1,27 @@
 body {
-    position: relative;
-    width: 1440px;
-    height: 900px;
-    background: #9DBEBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background: grey;
 }
 
-.rectangle1 {
-    position: absolute;
+.container {
+    display: flex;
     width: 954px;
     height: 594px;
-    left: 243px;
-    top: 153px;
+}
 
+.container__rectangle1 {
+    width: 609px;
+    height: 594px;
     background: #BE0909;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
 }
 
-.rectangle2 {
-    position: absolute;
+.container__rectangle2 {
     width: 345px;
     height: 594px;
-    left: 852px;
-    top: 153px;
-
     background: #FFB039;
 }
 
