@@ -5,13 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Forms</title>
 </head>
 <body>
     <div class="container">
-        <div class="container__rectangle1"></div>
+        <div class="container__rectangle1">
+            <div class="container__form">
+                <form class="container-form1" action="">
+                    <label for="name" class="container-label">FULL NAME</label>
+                    <input type="text" class="container-input">
+                    <hr class="hr1">
+                    <label for="email" class="container-label">EMAIL</label>
+                    <input type="email" class="container-input" placeholder="Your Email">
+                    <hr class="hr2">
+                    <label for="message-regarding" class="container-label">MESSAGE REGARDING</label>
+                    <select name="message" class="select-items" id="message-regarding">
+                        <option value="prices">Prices</option>
+                        <option value="returns">Returns</option>
+                        <option value="enquires">Enquires</option>
+                        <option value="discounts">Discounts</option>
+                        <option value="products" selected>Products</option>
+                    </select>
+                    <hr class="hr2">
+                    <label for="message" class="container-label">MESSAGE</label>
+                    <textarea name="" id="" cols="30" rows="2" class="container-input" placeholder="Your message"></textarea>
+                    <hr class="hr1">
+                </form>
+            </div>
+        </div>
         <div class="container__rectangle2"></div>
         <div class="container__image"><img src="images/hiclipart 2.png" alt="duck_pic"></div>
+
     </div>
 </body>
 </html>
