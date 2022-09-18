@@ -17,10 +17,10 @@
             <div class="container__form">
                 <form class="container-form1" action="">
                     <label for="name" class="container-label">FULL NAME</label>
-                    <input type="text" class="container-input">
+                    <input type="text" class="container-input" id="name">
                     <hr class="hr1">
                     <label for="email" class="container-label">EMAIL</label>
-                    <input type="email" class="container-input" placeholder="Your Email">
+                    <input type="email" class="container-input" id="email" placeholder="Your Email" autofocus required>
                     <hr class="hr2">
                     <label for="message-regarding" class="container-label">MESSAGE REGARDING</label>
                     <select name="message" class="select-items" id="message-regarding">
@@ -32,11 +32,11 @@
                     </select>
                     <hr class="hr2">
                     <label for="message" class="container-label">MESSAGE</label>
-                    <textarea name="" id="" cols="30" rows="2" class="container-input" placeholder="Your message"></textarea>
+                    <textarea name="" id="message" cols="30" rows="2" class="container-input" placeholder="Your message" required></textarea>
                     <hr class="hr1">
+                    <button type="submit" class="btn">SEND MESSAGE</button>
                 </form>
             </div>
-            <button class="btn">SEND MESSAGE</button>
         </div>
         <div class="container__rectangle2"></div>
         <div class="container__image"><img src="images/hiclipart 2.png" alt="duck picture"></div>
