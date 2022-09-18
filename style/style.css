@@ -9,7 +9,8 @@ body {
 .container {
     position: relative;
     display: flex;
-    width: 954px;
+    max-width: 954px;
+    width: 100%;
     height: 594px;
 }
 
